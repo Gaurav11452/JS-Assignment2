@@ -1,0 +1,99 @@
+/*Styling for Body */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container class styles */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* H1 Styling */
+h1 {
+    color: #007bff;
+    text-align: center;
+}
+
+/* Student ID  */
+.student-id {
+    text-align: center;
+    font-weight: bold;
+    color: #6c757d;
+    margin-top: 10px;
+}
+
+/* Different section styling */
+.input-section,
+.button-section,
+.select-section {
+    margin-bottom: 20px;
+}
+
+/* Label styles */
+label {
+    font-weight: bold;
+    color: #343a40;
+}
+
+/* Now styling for input fields and buttons */
+input[type="number"],
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Using different style for number type */
+input[type="number"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Styling for custom colour button */
+button.custColor {
+    background-color: #28a745;
+    color: #fff;
+}
+
+button.randColor {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+/* Hover effect on Button*/
+button:hover {
+    background-color: #138496;
+}
+
+/* Styles for select dropdown */
+select {
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #6c757d;
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect on images */
+img:hover {
+    transform: scale(1.05);
+}
